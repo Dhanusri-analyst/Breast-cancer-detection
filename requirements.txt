@@ -1,0 +1,6 @@
+gradio
+pandas
+joblib
+matplotlib
+seaborn
+scikit-learn==1.9.1
