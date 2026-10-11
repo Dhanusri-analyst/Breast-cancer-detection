@@ -1,5 +1,7 @@
 # Breast Cancer Detection (Machine Learning)
 
+![App screenshot](breast_screenshot.png)
+
 Classifies breast masses as malignant or benign from 30 nucleus measurements
 (Wisconsin Diagnostic Breast Cancer data, 569 samples).
 
