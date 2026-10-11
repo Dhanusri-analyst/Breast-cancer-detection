@@ -57,4 +57,5 @@ with gr.Blocks(title="Breast Cancer Detection") as demo:
     btn_b.click(lambda: load_example("B"), outputs=inputs)
     submit.click(predict, inputs=inputs, outputs=[out_label, out_prob])
 
-demo.launch()
+import os
+demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
